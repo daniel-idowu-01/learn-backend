@@ -1,0 +1,18 @@
+body {
+  background-color: rgba(0, 255, 255, 0.267);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px 18px;
+}
+
+#apiDataList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
