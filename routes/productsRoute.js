@@ -13,4 +13,9 @@ router.get('/:id', (req, res) => {
   res.json(newProduct)
 })
 
+router.delete('/:id', (req, res) => {
+  const { id } = req.params;
+  res.json(newProduct)
+})
+
 module.exports = router
